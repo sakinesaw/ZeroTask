@@ -8,3 +8,34 @@ img{
     max-width:100%;
     height: auto;
 }
+
+.navbar{
+    display: flex;
+    width:100%;
+    height:10vh;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#logo{
+    width:25%;
+    height: auto;
+    height:10vh;
+    object-fit: cover;
+}
+
+.lien_nav{
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    list-style-type: none;
+    gap:2%;
+    font-size: small;   
+}
+
+.lien_nav li{
+    width: 5em;
+}
