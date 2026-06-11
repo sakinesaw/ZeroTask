@@ -12,29 +12,36 @@ img{
 .navbar{
     display: flex;
     width:100%;
-    height:10vh;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    background-color: #1f2937;
+    padding: 16px 10%;
 }
 
 #logo{
-    width:25%;
-    height: auto;
-    height:10vh;
-    object-fit: cover;
+    width:auto;
+    height:40px;
+    object-fit: contain;
 }
 
 .lien_nav{
     display: flex;
     flex-flow: nowrap row;
-    justify-content: space-around;
     list-style-type: none;
-    gap:2%;
-    font-size: small;   
+    gap:32px;
+    font-size: 18px;   
+    padding: 0 24px;
+    color: white;
 }
+
+.lien_nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
 
 .lien_nav li{
     width: 5em;
